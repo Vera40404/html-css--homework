@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточки товаров</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            padding: 20px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .card h2 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .card p {
+            margin: 10px 0;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .card button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .card button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Товар 1">
+            <h2>Товар 1</h2>
+            <p>Описание товара 1.</p>
+            <button>Купить</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Товар 2">
+            <h2>Товар 2</h2>
+            <p>Описание товара 2.</p>
+            <button>Купить</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Товар 3">
+            <h2>Товар 3</h2>
+            <p>Описание товара 3.</p>
+            <button>Купить</button>
+        </div>
+    </div>
+</body>
+</html>
