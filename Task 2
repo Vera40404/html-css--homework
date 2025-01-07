@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Макет страницы</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .main {
+            display: flex;
+            padding: 20px;
+        }
+        .main .text {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .main img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Название сайта</h1>
+    </div>
+    <div class="main">
+        <div class="text">
+            <p>Это пример текста в основном блоке.</p>
+        </div>
+        <img src="https://s0.rbk.ru/v6_top_pics/media/img/4/04/346843326750044.jpg="Пример изображения">
+    </div>
+    <div class="footer">
+        <p>Все права защищены</p>
+    </div>
+</body>
+</html>
